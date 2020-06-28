@@ -1,9 +1,9 @@
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-  io.github.jhipster.config.apidoc.SwaggerAutoConfiguration,\
-  io.github.jhipster.config.apidoc.SwaggerPluginsAutoConfiguration,\
-  io.github.jhipster.config.JHipsterProperties,\
-  io.github.jhipster.security.uaa.UaaAutoConfiguration,\
-  io.github.jhipster.config.info.JHipsterInfoContributorConfiguration,\
-  io.github.jhipster.config.metric.JHipsterMetricsEndpointConfiguration,\
-  io.github.jhipster.config.metric.JHipsterLoggingMetricsExportConfiguration,\
-  io.github.jhipster.security.ssl.UndertowSSLConfiguration
+  com.transfar.sa.common.config.apidoc.SwaggerAutoConfiguration,\
+  com.transfar.sa.common.config.apidoc.SwaggerPluginsAutoConfiguration,\
+  com.transfar.sa.common.config.JHipsterProperties,\
+  com.transfar.sa.common.security.uaa.UaaAutoConfiguration,\
+  com.transfar.sa.common.config.info.JHipsterInfoContributorConfiguration,\
+  com.transfar.sa.common.config.metric.JHipsterMetricsEndpointConfiguration,\
+  com.transfar.sa.common.config.metric.JHipsterLoggingMetricsExportConfiguration,\
+  com.transfar.sa.common.security.ssl.UndertowSSLConfiguration
